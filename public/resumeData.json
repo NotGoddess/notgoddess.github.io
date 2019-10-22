@@ -1,0 +1,173 @@
+{
+  "main": {
+    "name":"Sara Jacobson",
+    "tagline":"What color is the sky in your world?",
+    "occupation":"Web Developer",
+    "description":"specializing in Drupal development",
+    "image":"sara-jacobson.jpg",
+    "bio":"Experienced Developer offering 17 years of experience in full software development life-cycle. Interested in role with company promoting best practices and offering new challenges.",
+    "contactmessage":"Want to know more? Get in touch!",
+    "email": "notgoddess@gmail.com",
+    "phone": "515-520-1967",
+    "phonelink": "15155201967",
+    "address":{
+      "street":"655 6th st",
+      "city":"Waukee",
+      "state":"Iowa",
+      "zip": "50263"
+    },
+    "website": "https://notgoddess.com",
+    "resumedownload":"https://notgoddess.com",
+    "social":[
+      {
+        "name":"facebook",
+        "title":"Facebook",
+        "url":"https://www.facebook.com/notgoddess",
+        "className":"fab fa-facebook"
+      },
+      {
+        "name":"twitter",
+        "title":"Twitter",
+        "url":"https://twitter.com/notgoddess",
+        "className":"fab fa-twitter"
+      },
+      {
+        "name":"linkedin",
+        "title":"LinkedIn",
+        "url":"https://linkedin.com/in/sarajacobson/",
+        "className":"fab fa-linkedin"
+      },
+      {
+        "name":"github",
+        "title":"GitHub",
+        "url":"http://github.com/notgoddess",
+        "className":"fab fa-github"
+      },
+      {
+        "name":"drupal",
+        "title":"Drupal",
+        "url":"https://www.drupal.org/u/notgoddess",
+        "className":"fab fa-drupal"
+      }
+    ]
+  },
+  "resume":{
+    "education":[
+      {
+        "school":"Ongoing Education",
+        "degree":"Self-learning through developer sites, forums, whitepapers, and playing with new techniques",
+        "graduated":"always",
+        "description":"Ongoing self-learning self-learning through developer sites, forums, whitepapers, and playing with new techniques"
+      },
+      {
+        "school":"New Horizons",
+        "degree":"CIW certification in web development, design and eCommerce applications",
+        "graduated":"December 2004",
+        "description":"Courses in tools, languages, and network administration"
+      },
+      {
+        "school":"Iowa State",
+        "degree":"Studied Physics and astrophysics",
+        "graduated":"2 years completed",
+        "description":"Learned that while I love the stars, it wasn't quite where my heart was at."
+      }
+    ],
+    "work":[
+      {
+        "company":"Freelancer/Consultant",
+        "title":"Web Developer",
+        "years":"September 2019 - Present",
+        "description":"Assisting clients with PHP, Drupal, WordPress and general web development"
+      },
+      {
+        "company":"Blue Compass Interactive",
+        "title":"Developer",
+        "years":"July 2017 - September 2019",
+        "description":"Developed websites and applications in ASP.NET and Drupal"
+      },
+      {
+        "company":"Aureon Technologies",
+        "title":"Senior Web Developer/Consultant",
+        "years":"March 2016 - July 2017",
+        "description":"Developed websites in Drupal"
+      },
+      {
+        "company":"Alliance Technologies",
+        "title":"Senior Web Developer/Consultant",
+        "years":"February 2014 - March 2016",
+        "description":"Developed websites in Drupal"
+      },
+      {
+        "company":"Alliance Technologies",
+        "title":"Web Developer/Consultant",
+        "years":"October 2007 - February 2014",
+        "description":"Developed websites in Drupal"
+      },
+      {
+        "company":"NotGoddess Designs",
+        "title":"Owner",
+        "years":"June 2003 - October 2007",
+        "description":"Designed sites and web applications for national and international clientele"
+      }
+    ],
+    "skillmessage":"I never rate myself 100% because there is always more to learn",
+    "skills":[
+      {
+        "name":"Drupal 7",
+        "level":"95%"
+      },
+      {
+        "name":"Drupal 8",
+        "level":"70%"
+      },
+      {
+        "name":"PHP",
+        "level":"90%"
+      },
+      {
+        "name":"MySQL, SQL",
+        "level":"90%"
+      },
+      {
+        "name":"HTML",
+        "level":"95%"
+      },
+      {
+        "name":"CSS, SCSS, SASS",
+        "level":"100%"
+      },
+      {
+        "name":"JavaScript",
+        "level":"90%"
+      },
+      {
+        "name":"jQuery",
+        "level":"85%"
+      },
+      {
+        "name":"ReactJs, ReactNative",
+        "level":"15%"
+      },
+      {
+        "name":"WCAG 2.0, 2.1 & Section 508 Accessibility",
+        "level":"90%"
+      },
+      {
+        "name":"REST, SOAP, webservice APIs",
+        "level":"50%"
+      },
+      {
+        "name":"Linux, WAMP, WAMP & Linux administration",
+        "level":"90%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+    ]
+  },
+  "testimonials":{
+    "testimonials":[
+    ]
+  }
+}
