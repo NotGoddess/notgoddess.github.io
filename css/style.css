@@ -754,7 +754,7 @@ section { position: relative; }
 /* light is defaults */
 .dark {
    background-color: #2B2B2B;
-   color: #BBC;
+   color: #99C;
 }
 
 .dark h1,
@@ -988,12 +988,10 @@ ul#nav li.current a { color: #F06000; }
 
 #about h2 {
    font: 22px/30px 'opensans-bold', sans-serif;
-   /* color: #fff; */
    margin-bottom: 12px;
 }
 #about p {
    line-height: 30px;
-   color: #BBC;
 }
 #about .profile-pic {
    position: relative;
@@ -1009,7 +1007,6 @@ ul#nav li.current a { color: #F06000; }
 #about .main-col { padding-right: 5%; }
 #about .download .button {
    margin-top: 6px;
-   /* background: #444; */
 }
 #about .download .button:hover {
    background: #fff;
