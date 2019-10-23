@@ -1,1 +1,0 @@
-# NotGoddess GitHub user page
