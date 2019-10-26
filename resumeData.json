@@ -18,6 +18,35 @@
     },
     "website": "https://notgoddess.com",
     "resumedownload":"https://notgoddess.com",
+    "socialtoo": {
+      "facebook": {
+        "title":"Facebook",
+        "user":"notgoddess",
+        "url":"https://www.facebook.com/notgoddess",
+        "className":"fab fa-facebook"
+      },
+      "twitter":{
+        "title":"Twitter",
+        "user":"notgoddess",
+        "url":"https://twitter.com/notgoddess",
+        "className":"fab fa-twitter"
+      },
+      "linkedin":{
+        "title":"LinkedIn",
+        "url":"https://linkedin.com/in/sarajacobson/",
+        "className":"fab fa-linkedin"
+      },
+      "github":{
+        "title":"GitHub",
+        "url":"http://github.com/notgoddess",
+        "className":"fab fa-github"
+      },
+      "drupal":{
+        "title":"Drupal",
+        "url":"https://www.drupal.org/u/notgoddess",
+        "className":"fab fa-drupal"
+      }
+    },
     "social":[
       {
         "name":"facebook",

@@ -771,12 +771,16 @@ section { position: relative; }
 .dark a:visited {
    color: #FFF;
 }
-.dark a:hover,
+.dark a:hover {
+   color: #CCDDFF;
+   box-shadow: 0px 5px 4px -4px #CCDDFF;
+    transition: box-shadow .2s ease-in-out;
+}
 .dark a:active {
-    color: #99C;
+    color: #CCDDFF;
+    box-shadow: 0px 5px 2px -2px #CCDDFF;
+    transition: box-shadow .2s ease-in-out;
  }
-.dark .social li a { color: #fff; }
-.dark .social li a:hover { color: #628; }
 
 
 
