@@ -8,7 +8,10 @@
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-ga": "^2.7.0",
+    "react-js-pull-to-refresh": "^1.2.2",
+    "react-pull-to-refresh": "^1.1.2",
     "react-scripts": "3.1.2",
+    "react-twitter-embed": "^2.0.8",
     "typescript": "^3.6.4"
   },
   "scripts": {
@@ -16,7 +19,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master --d build",
+    "deploy": "gh-pages -b master -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {

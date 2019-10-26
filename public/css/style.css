@@ -754,7 +754,7 @@ section { position: relative; }
 /* light is defaults */
 .dark {
    background-color: #2B2B2B;
-   color: #BBC;
+   color: #CCD;
 }
 
 .dark h1,
@@ -769,14 +769,18 @@ section { position: relative; }
 .dark a,
 .dark a:link,
 .dark a:visited {
-   color: #ddf;
+   color: #FFF;
 }
-.dark a:hover,
+.dark a:hover {
+   color: #CCDDFF;
+   box-shadow: 0px 5px 4px -4px #CCDDFF;
+    transition: box-shadow .2s ease-in-out;
+}
 .dark a:active {
-    color: #628;
+    color: #CCDDFF;
+    box-shadow: 0px 5px 2px -2px #CCDDFF;
+    transition: box-shadow .2s ease-in-out;
  }
-.dark .social li a { color: #fff; }
-.dark .social li a:hover { color: #628; }
 
 
 
@@ -906,7 +910,7 @@ ul#nav li a {
    line-height: 32px;
    text-decoration: none;
    text-align: left;
-   color: #fff;
+
 
    -webkit-transition: color .2s ease-in-out;
    -moz-transition: color .2s ease-in-out;
@@ -988,12 +992,10 @@ ul#nav li.current a { color: #F06000; }
 
 #about h2 {
    font: 22px/30px 'opensans-bold', sans-serif;
-   /* color: #fff; */
    margin-bottom: 12px;
 }
 #about p {
    line-height: 30px;
-   color: #BBC;
 }
 #about .profile-pic {
    position: relative;
@@ -1009,7 +1011,6 @@ ul#nav li.current a { color: #F06000; }
 #about .main-col { padding-right: 5%; }
 #about .download .button {
    margin-top: 6px;
-   /* background: #444; */
 }
 #about .download .button:hover {
    background: #fff;
@@ -1585,14 +1586,14 @@ call-to-action .button {
 }
 #contact .section-head { margin-bottom: 42px; }
 
-#contact a, #contact a:visited  {/* color: #628; */}
-#contact a:hover, #contact a:focus { color: #fff; }
+#contact a, #contact a:visited  {  }
+#contact a:hover, #contact a:focus { }
 
 #contact h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 3px;
-   color: #EBEEEE;
+
    margin-bottom: 6px;
 }
 #contact h1 span { display: none; }
@@ -1604,12 +1605,12 @@ call-to-action .button {
    line-height: 72px;
    text-align: left;
    float: left;
-   color: #ebeeee;
+
 }
 
 #contact h4 {
    font: 16px/24px 'opensans-bold', sans-serif;
-   color: #EBEEEE;
+
    margin-bottom: 6px;
 }
 #contact p.lead {
@@ -1624,7 +1625,7 @@ call-to-action .button {
 #contact label {
    font: 15px/24px 'opensans-bold', sans-serif;
    margin: 12px 0;
-   color: #EBEEEE;
+
    display: inline-block;
    float: left;
    width: 26%;

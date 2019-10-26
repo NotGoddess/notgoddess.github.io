@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { TwitterTimelineEmbed } from 'react-twitter-embed';
 
 class Contact extends Component {
   render() {
@@ -31,7 +32,7 @@ class Contact extends Component {
 
               <div className="widget widget_contact">
 
-                <h4>Address and Phone</h4>
+                <h3>Address and Phone</h3>
                   <p className="address">
                      {name}<br />
                      {street} <br />
@@ -40,33 +41,21 @@ class Contact extends Component {
                      {email}
                    </p>
              </div>
-
            </div>
 
-
             <aside className="six columns footer-widgets">
-
-
+            <h3>Latest tweets by <a href="https://twitter.com/notgoddess">@NotGoddess</a></h3>
                <div className="widget widget_tweets">
-                  <h4 className="widget-title">Latest Tweets</h4>
-                  <ul id="twitter">
-                     <li>
-                        <span>
-                        This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                        Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum
-                        <a href="#resume">http://t.co/CGIrdxIlI3</a>
-                        </span>
-                        <b><a href="#resume">2 Days Ago</a></b>
-                     </li>
-                     <li>
-                        <span>
-                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-                        eaque ipsa quae ab illo inventore veritatis et quasi
-                        <a href="#resume">http://t.co/CGIrdxIlI3</a>
-                        </span>
-                        <b><a href="#resume">3 Days Ago</a></b>
-                     </li>
-                  </ul>
+                  <TwitterTimelineEmbed
+                    sourceType="profile"
+                    screenName="notgoddess"
+
+                    theme="dark"
+                    noFooter="1"
+                    noHeader="1"
+                    transparent="1"
+                    options={{height: 400}}
+                  />
 		         </div>
             </aside>
       </div>
